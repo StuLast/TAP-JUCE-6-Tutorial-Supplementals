@@ -6,9 +6,11 @@
 
 [Video Transcript](./Transcript.md)
 
+[Supplemental](./Supplemental.md)
 
 ## Resources
 [Go To Video On YouTube](https://youtu.be/3GyQhLwb3J8)
+
 [Juce Github Repo](https://github.com/juce-framework/JUCE)
 
 ## The Audio Programmer Links
