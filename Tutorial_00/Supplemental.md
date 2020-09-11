@@ -62,10 +62,11 @@ There are 2 ways of achieving the switch.
 
 ### Method 1.  
 
-Open up the file C:\Users\username\AppData\Roaming\Projucer\Projucer.settings with any text editor.  near the top of the file you'll see  
-``` <VALUE name="PROJECT_DEFAULT_SETTINGS">
-    <PROJECT_DEFAULT_SETTINGS jucePath="C:\JUCE\Juce 6" defaultJuceModulePath="C:\JUCE\Juce 6\modules"/>
-  </VALUE>
+Open up the file C:\Users\username\AppData\Roaming\Projucer\Projucer.settings with any text editor.  Near the top of the file you'll see  
+```xml
+    <VALUE name="PROJECT_DEFAULT_SETTINGS"/>
+        <PROJECT_DEFAULT_SETTINGS jucePath="C:\JUCE\Juce 6" defaultJuceModulePath="C:\JUCE\Juce 6\modules"/>
+    </VALUE>
 ```
 
 Simply edit the jucePath value and defaultJuceModulePath value to point to your preferred JUCE version (an obvious and simple folder naming scheme comes in handy here)
