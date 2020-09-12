@@ -25,13 +25,16 @@ Stu Last is a seasoned (read as crusty old) programmer with over 20 years experi
 
 ## The Audio Programmer Links
 
-Community:  https://theaudioprogrammer.com/community
+Community:  [https://theaudioprogrammer.com/community](https://theaudioprogrammer.com/community)
 
-Website: https://www.theaudioprogrammer.com
-Instagram: https://www.instagram.com/theaudioprogrammer
-Facebook: https://www.facebook.com/theaudioprogrammer
-Twitter: https://www.twitter.com/audioprogrammer
+Website: [https://www.theaudioprogrammer.com](https://www.theaudioprogrammer.com)
+
+Instagram: [https://www.instagram.com/theaudioprogrammer](https://www.instagram.com/theaudioprogrammer)
+
+Facebook: [https://www.facebook.com/theaudioprogrammer](https://www.facebook.com/theaudioprogrammer)
+
+Twitter: [https://www.twitter.com/audioprogrammer)](https://www.twitter.com/audioprogrammer)
 
 ## Support The Audio Programmer Channel
 
-https://www.patreon.com/TheAudioProgrammer
+[https://www.patreon.com/TheAudioProgrammer](https://www.patreon.com/TheAudioProgrammer)
