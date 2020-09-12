@@ -201,5 +201,9 @@ Whilst Josh's demonstration "works" the reason it works kinda goes against what 
 
 Once again we are back to talking about specificity and clarity of intent.  Should you a programmer revisit Josh's code months or years down the line, is the intent that the code is part of the specific Juce library, or is it specific to another project?
 
+## A final thought on the benefits of namespacing
 
+Namespacing makes our programming lives easier.  For me, one of the biggest benefits comes with naming classes, methods etc.  As an example, let's think about an imaginary but commonly used method in audio programming, creating a sine wave.  In a whole host of audio programming libraries, including JUCE,  there will be a synthesizer.  But what if I wanted to come up with my own specific approach to generating a sine wave, to specific tolerances for the specific purpose of my software?
+
+Looking at the other libraries, there will be such method names as "synth", "synthesizer", "mutliSynth" etc etc - the possibilities are endless.  With some many useful names taken up, what should I do - although unique, I think "StusFunkySynthomograph" is a bit of a mouthful, hard to read, not obvious,  and not really that necessary.  By wrapping my synth class code in a namespace, such as stuSynth, I can still use clear and obvious naming such as getSinWave.  To make use of this all I'd need to do then is use stuSynth::synth.
 
