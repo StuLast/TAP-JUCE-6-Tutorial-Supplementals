@@ -11,11 +11,11 @@ Existing and future JUCE 6 tutorials from The Audio Programmer will all receive 
 ## Lesson Index:
 
  - [Tutorial_00 - How To Explore the JUCE Repository and New Features](./Tutorial_00/Tutorial_00.md)
+ - [Tutorial_01 - Tutorial 01 - How to Explore the JUCE Repository and New Features](./Tutorial_01/Tutorial_01.md)
 
 
 ## Upcoming Lesson supplementals
 
-- Tutorial_01
 - Tutorial_02
 - Tutorial_03
 
