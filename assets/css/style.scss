@@ -20,16 +20,17 @@ body, input, textarea, select {
     text-shadow: none;
 }
 
-#main_menu {
+#top_menu nav{
     display: flex;
     justify-content: space-around;
 }
 
-#main_menu ul {
+#top_menu nav ul {
     list-style-type: none;
+    list-style-image: none;
 }
 
-#main_menu li {
+#top_menu nav ul li {
     display: inline-block;
 }
 
