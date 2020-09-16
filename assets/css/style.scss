@@ -20,6 +20,19 @@ body, input, textarea, select {
     text-shadow: none;
 }
 
+#main_menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_menu ul {
+    list-style-type: none;
+}
+
+#main_menu li {
+    display: inline-block;
+}
+
 #branding {
     display: flex;
     align-items: center;
