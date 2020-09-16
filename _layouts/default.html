@@ -15,19 +15,31 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          {% endif %}
+
+        <div id="main-menu">
+            <ul id="top-menu" class="nav"><li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-36"><a href="https://theaudioprogrammer.com" aria-current="page">Home</a></li>
+                <li id="menu-item-1287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1287"><a href="https://theaudioprogrammer.com/services/">Services</a></li>
+                <li id="menu-item-1439" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1439"><a href="https://theaudioprogrammer.com/product/building-better-plug-ins-with-juce-vol-1/">Courses</a></li>
+                <li id="menu-item-1192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1192"><a href="https://theaudioprogrammer.com/community/">Community</a></li>
+                <li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819"><a href="https://theaudioprogrammer.com/jobs-apply/">Submit CV</a></li>
+                <li id="menu-item-1171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="https://theaudioprogrammer.com/meetup/">Meetups</a></li>
+                <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://theaudioprogrammer.com/blog/">Blog</a></li>
+                <li id="menu-item-353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href="https://theaudioprogrammer.com/contact/">Contact</a></li>
+            </ul>   
+        </div>
         <div id="branding">
             <a href = "/"><img src="./assets/images/TAP-Logo-Circle-Curves.png" alt="The Audio Programmer Logo"></a>
             <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         </div>
-        <div id="nav">
-            <nav>
-
-            </nav>
-        </div>
         </header>
+        {% if site.github.is_project_page %}
+            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+        {% endif %}
+    </div>
+    <div id="nav">
+        <nav>
+
+        </nav>
     </div>
 
     <!-- MAIN CONTENT -->
