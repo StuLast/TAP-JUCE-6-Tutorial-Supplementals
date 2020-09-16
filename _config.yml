@@ -1,5 +1,8 @@
 title: TAP Theme
-description: Slate is a theme for GitHub Pages.
+description: TAP is a bespoke theme for GitHub Pages.
 show_downloads: true
 google_analytics: false
-theme: tap-theme
+theme: tap
+
+plugins:
+  - jekyll-seo-tag
