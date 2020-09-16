@@ -1,5 +1,3 @@
-[Home](../README.md) |
-
 # Tutorial 01 - Using Namespace JUCE:  What is it and Why Shouldn't I Use it?
 
 [Go To Video On YouTube](https://youtu.be/cJtx30ZRl_0)

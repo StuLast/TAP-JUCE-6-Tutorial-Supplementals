@@ -1,5 +1,3 @@
-[Home](../README.md) |
-
 # Tutorial 00 - How to Explore the JUCE Repository and New Features
 
 ##  Lesson Content and Supplemental
@@ -12,18 +10,6 @@
 [Go To Video On YouTube](https://youtu.be/3GyQhLwb3J8)
 
 [Juce Github Repo](https://github.com/juce-framework/JUCE)
-
-## The Audio Programmer Links
-
-Community:  [https://theaudioprogrammer.com/community](https://theaudioprogrammer.com/community)
-
-Website: [https://www.theaudioprogrammer.com](https://www.theaudioprogrammer.com)
-
-Instagram: [https://www.instagram.com/theaudioprogrammer](https://www.instagram.com/theaudioprogrammer)
-
-Facebook: [https://www.facebook.com/theaudioprogrammer](https://www.facebook.com/theaudioprogrammer)
-
-Twitter: [https://www.twitter.com/audioprogrammer](https://www.twitter.com/audioprogrammer)
 
 ## Support The Audio Programmer Channel
 

@@ -1,4 +1,4 @@
-[home](./README.md)
+[Back to Tutorials Supplements Main Page...](./README.md)
 
 # The Audio Programmer JUCE 6 Tutorial Series - Supplemental
 
@@ -20,22 +20,11 @@ The project to provide documentation for existing and future JUCE 6 tutorials fr
 - Tutorial_02
 - Tutorial_03
 
+## Support The Audio Programmer Channel
+
+[https://www.patreon.com/TheAudioProgrammer](https://www.patreon.com/TheAudioProgrammer)
+
 ## About the Author(s)
 
 Stu Last is a seasoned (read as crusty old) programmer with over 20 years experience in web application programming, data analysis/modelling, software development, project management and coaching.  Stu is also a composer and multi-instrumentalist publishing music under his own name on SoundCloud and writing music for other musicians to perform and publish themselves.
 
-## The Audio Programmer Links
-
-Community:  [https://theaudioprogrammer.com/community](https://theaudioprogrammer.com/community)
-
-Website: [https://www.theaudioprogrammer.com](https://www.theaudioprogrammer.com)
-
-Instagram: [https://www.instagram.com/theaudioprogrammer](https://www.instagram.com/theaudioprogrammer)
-
-Facebook: [https://www.facebook.com/theaudioprogrammer](https://www.facebook.com/theaudioprogrammer)
-
-Twitter: [https://www.twitter.com/audioprogrammer)](https://www.twitter.com/audioprogrammer)
-
-## Support The Audio Programmer Channel
-
-[https://www.patreon.com/TheAudioProgrammer](https://www.patreon.com/TheAudioProgrammer)

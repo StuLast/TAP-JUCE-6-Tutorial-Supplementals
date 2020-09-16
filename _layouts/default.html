@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
     {% seo %}
   </head>
@@ -17,18 +19,20 @@
         <header class="inner">
 
         <div id="main-menu">
-            <ul id="top-menu" class="nav"><li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-36"><a href="https://theaudioprogrammer.com" aria-current="page">Home</a></li>
-                <li> <a href="https://theaudioprogrammer.com/services/">Services</a></li>
-                <li> <a href="https://theaudioprogrammer.com/product/building-better-plug-ins-with-juce-vol-1/">Courses</a></li>
-                <li><a href="https://theaudioprogrammer.com/community/">Community</a></li>
-                <li><a href="https://theaudioprogrammer.com/jobs-apply/">Submit CV</a></li>
-                <li></li><a href="https://theaudioprogrammer.com/meetup/">Meetups</a></li>
-                <li><a href="https://theaudioprogrammer.com/blog/">Blog</a></li>
-                <li><a href="https://theaudioprogrammer.com/contact/">Contact</a></li>
-            </ul>   
+          <ul>
+            <li> <a href="https://theaudioprogrammer.com" aria-current="page">Home</a> </li>
+            <li> <a href="https://theaudioprogrammer.com/services/">Services</a> </li>
+            <li> <a href="https://theaudioprogrammer.com/product/building-better-plug-ins-with-juce-vol-1/">Courses</a> </li>
+            <li> <a href="https://theaudioprogrammer.com/community/">Community</a> </li>
+            <li> <a href="https://theaudioprogrammer.com/jobs-apply/">Submit CV</a> </li>
+            <li> <a href="https://theaudioprogrammer.com/meetup/">Meetups</a> </li>
+            <li> <a href="https://theaudioprogrammer.com/blog/">Blog</a> </li>
+            <li> <a href="https://theaudioprogrammer.com/contact/">Contact</a> </li>
+          </ul>   
         </div>
+
         <div id="branding">
-            <a href = "/"><img src="./assets/images/TAP-Logo-Circle-Curves.png" alt="The Audio Programmer Logo"></a>
+            <a href = "/"><img src="/assets/images/TAP-Logo-Circle-Curves.png" alt="The Audio Programmer Logo"></a>
             <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         </div>
         </header>
@@ -44,18 +48,32 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+
       <section id="main_content" class="inner">
+        <a href="\"> Back to JUCE 6 tutorial supplements main page &hellip;</a>
         {{ content }}
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
+      <footer class="inner footer-links">
+        <div class="inner col-1">
+          <a href="https://theaudioprogrammer.com/community" alt="The Audio Programmer Discord community">Community</a>
+          <a href="https://www.theaudioprogrammer.com" alt="The Audio Programmer Main Website"> Main Website</a>
+        </div>
+        <div class="inner col-2">
+          <a href="https://www.instagram.com/theaudioprogrammer" alt="The Audio Programmer on Instagram"> <i class="fab fa-instagram social-logo"></i></i> </a>
+          <a href="https://www.facebook.com/theaudioprogrammer" alt="The Audio Programmer on Facebook"> <i class="fab fa-facebook social-logo"></i></a>
+           <a hre="https://www.twitter.com/audioprogrammer" alt="The Audio Programmer on Twitter"><i class="fab fa-twitter social-logo"></i></a>
+        </div>
+      </footer>
+      <div id="sub-footer" class="inner">
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-      </footer>
+        <p id="ipText">The Audio Programmer, Stu Last</p>
+      </div>
     </div>
 
     {% if site.google_analytics %}
@@ -68,5 +86,7 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <script src="/assets/js/main.js" ></script>
   </body>
 </html>

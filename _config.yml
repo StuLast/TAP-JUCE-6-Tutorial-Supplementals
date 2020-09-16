@@ -1,5 +1,5 @@
-title: Slate theme
-description: The Audio Programmer - Tutorial Supplementals
-show_downloads: true
-google_analytics: false
+title: The Audio Programmer - Tutorial Supplemental
+description: The Audio Programmer - Tutorial Supplemental
+show_downloads: false
+google_analytics: 
 theme: jekyll-theme-slate

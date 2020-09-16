@@ -1,5 +1,3 @@
-[Home](../README.md) |
-
 # Tutorial 00 - How to Explore the JUCE Repository and New Features
 
 [Go To Video On YouTube](https://youtu.be/3GyQhLwb3J8)
