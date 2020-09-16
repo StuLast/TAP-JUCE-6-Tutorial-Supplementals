@@ -2,3 +2,20 @@
 ---
 
 @import "jekyll-theme-slate";
+
+// Bespoke style rules
+
+#branding {
+    display: flex;
+    align-items: center;
+}
+
+#branding img {
+    max-height: 50px;
+    margin-right: 15px;
+}
+
+#nav .nav {
+    display: flex;
+    justify-content: space-around;
+}
