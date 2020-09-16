@@ -1,0 +1,103 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+// Bespoke style rules
+
+body, input, textarea, select, a {
+    font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    color: #666; 
+    background: #fff;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #2ea3f2;
+}
+
+#main_content_wrap a::after {
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: " \f35d";
+    color: #2ea3f2
+}
+
+#header_wrap, #header_wrap.outer  {
+    background: #fff;
+}
+
+#project_tagline {
+    color: #666;
+    text-shadow: none;
+}
+
+#main-menu a {
+    text-decoration: none;
+    color: #2ea3f2;
+}
+
+#main-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-menu ul li {
+
+}
+
+#branding {
+    display: flex;
+    align-items: center;
+}
+
+#branding img {
+    max-height: 75px;
+    margin-right: 15px;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+
+#nav .nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_content_wrap { 
+    background: #fff;
+}
+
+
+#footer_wrap {
+    a { 
+        background: none;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: space-between;
+
+        .col-1 {
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+        }
+
+        .col-2 {
+            align-items: top;
+            .social-logo {
+                font-size: 2em;
+                padding: 10px;
+                color: #2ea3f2;
+            }
+        }
+    }
+}
+#sub-footer {
+    border-top: 1px solid grey;
+}
