@@ -32,7 +32,7 @@
         </div>
 
         <div id="branding">
-            <a href = "{{ site.url | site.github.repository_name }}"><img src="{{ site.url | site.github.repository_name }}/assets/images/TAP-Logo-Circle-Curves.png" alt="The Audio Programmer Logo"></a>
+            <a href = "{{ /site.github.repository_name }}"><img src="{{ /site.github.repository_name }}/assets/images/TAP-Logo-Circle-Curves.png" alt="The Audio Programmer Logo"></a>
             <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         </div>
         </header>
@@ -50,7 +50,7 @@
     <div id="main_content_wrap" class="outer">
 
       <section id="main_content" class="inner">
-        <a href="{{ site.github.repository_name }}"> Back to JUCE 6 tutorial supplements main page &hellip;</a>
+        <a href="{{ /site.github.repository_name }}"> Back to JUCE 6 tutorial supplements main page &hellip;</a>
         {{ content }}
       </section>
     </div>
