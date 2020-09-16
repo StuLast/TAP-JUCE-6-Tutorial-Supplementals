@@ -1,5 +1,3 @@
-[Back to Tutorials Supplements Main Page...](./README.md)
-
 # The Audio Programmer JUCE 6 Tutorial Series - Supplemental
 
 ## Purpose
