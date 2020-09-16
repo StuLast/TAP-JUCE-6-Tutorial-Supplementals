@@ -5,6 +5,16 @@
 
 // Bespoke style rules
 
+body, input, textarea, select {
+    font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
+    color: #666; 
+    background: #fff;
+}
+
+#header_wrap, #header_wrap.outer  {
+    background: #fff;
+}
+
 #branding {
     display: flex;
     align-items: center;
